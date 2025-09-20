@@ -1,4 +1,4 @@
-A simple Streamlit app.
+A simple Streamlit app, visit publically hosted https://rtw-sci.streamlit.app/
 
 ### How to run it on your own machine
 
