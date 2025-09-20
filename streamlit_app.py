@@ -218,8 +218,8 @@ if st.button("Predict"):
     # Use "mean", not "predicted_mean"
     pred_prob = 1 - summary["predicted"].iloc[0]
 
-    lower_ci = 1 - summary["ci_upper"].iloc[0]      # flip b/c reverse of nonreturn predict
-    upper_ci = 1 - summary["ci_lower"].iloc[0]      # flip b/c reverse of nonreturn predict
+    lower_ci = 1 - summary["ci_upper"].iloc[0]      
+    upper_ci = 1 - summary["ci_lower"].iloc[0]      
 
     pred_class = int(pred_prob >= 0.5135)  # thresholding
 
